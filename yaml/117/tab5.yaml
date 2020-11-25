@@ -1,0 +1,90 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+  - {low: 14.0, high: 17.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value:  1.25
+  - value:  1.75
+  - value:  2.25
+  - value:  2.75
+  - value:  3.5
+  - value:  4.5
+  - value:  5.5
+  - value:  6.5
+  - value:  7.5
+  - value:  9
+  - value:  11
+  - value:  13
+  - value:  15.5
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: 'Nuclear modification factor $R_{dA}$ for $\pi^0$ $\sqrt{s}$ = 200 GeV'}
+  values:
+  - value: 0.723
+    errors:
+    - {symerror: 0.046, label: 'Stat. error'}
+    - {symerror: 0.117, label: 'Syst. error'}
+  - value: 0.965
+    errors:
+    - {symerror: 0.066, label: 'Stat. error'}
+    - {symerror: 0.236, label: 'Syst. error'}
+  - value: 1.187
+    errors:
+    - {symerror: 0.105, label: 'Stat. error'}
+    - {symerror: 0.373, label: 'Syst. error'}
+  - value: 0.917
+    errors:
+    - {symerror: 0.136, label: 'Stat. error'}
+    - {symerror: 0.349, label: 'Syst. error'}
+  - value: 1.291
+    errors:
+    - {symerror: 0.352, label: 'Stat. error'}
+    - {symerror: 0.607, label: 'Syst. error'}
+  - value: 1.141
+    errors:
+    - {symerror: 0.167, label: 'Stat. error'}
+    - {symerror: 0.58, label: 'Syst. error'}
+  - value: 1.328
+    errors:
+    - {symerror: 0.112, label: 'Stat. error'}
+    - {symerror: 0.339, label: 'Syst. error'}
+  - value: 1.224
+    errors:
+    - {symerror: 0.116, label: 'Stat. error'}
+    - {symerror: 0.281, label: 'Syst. error'}
+  - value: 1.074
+    errors:
+    - {symerror: 0.066, label: 'Stat. error'}
+    - {symerror: 0.315, label: 'Syst. error'}
+  - value: 0.948
+    errors:
+    - {symerror: 0.054, label: 'Stat. error'}
+    - {symerror: 0.278, label: 'Syst. error'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.084, label: 'Stat. error'}
+    - {symerror: 0.336, label: 'Syst. error'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.173, label: 'Stat. error'}
+    - {symerror: 0.504, label: 'Syst. error'}
+  - value: 0.765
+    errors:
+    - {symerror: 0.265, label: 'Stat. error'}
+    - {symerror: 0.422, label: 'Syst. error'}

@@ -1,0 +1,172 @@
+# Start a new submission. This section is optional for the provision of information about the overall submission.
+---
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://drupal.star.bnl.gov/STAR/publications/inclusive-pi0-eta-and-direct-photon-production-pp-and-dau-collisions-sqrtsnn-200-gev#", description: "web page with auxiliary material"}
+
+comment: | # Information that applies to all data tables.
+  We report a measurement of high-p_T inclusive pi^0, eta, and direct photon production in p+p and d+Au collisions at sqrt(s_NN) = 200 GeV at midrapidity (0 < eta < 1). Photons from the decay pi^0 -> gamma gamma were detected in the Barrel Electromagnetic Calorimeter of the STAR experiment at the Relativistic Heavy Ion Collider. The eta -> gamma gamma decay was also observed and constituted the first eta measurement by STAR. The first direct photon cross section measurement by STAR is also presented, the signal was extracted statistically by subtracting the pi^0, eta, and omega(782) decay background from the inclusive photon distribution observed in the calorimeter. The analysis is described in detail, and the results are found to be in good agreement with earlier measurements and with next-to-leading order perturbative QCD calculations.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+description: Cross section for $\pi^0$ production at midrapidity in p+p collisions at $\sqrt{s}$ = 200 GeV. Normalization uncertainty of 11.7% is not included.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p p --> X + $\pi^0$]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig23.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig23.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+data_file: tab1.yaml
+---
+# Start of table entries.
+# This is Table 2.
+name: "Table 2"
+description: Cross section for $\pi^0$ production at midrapidity in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Normalization uncertainty of 5.3% is not included.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [d Au --> X + $\pi^0$]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig23.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig23.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+data_file: tab2.yaml
+---
+# Start of table entries.
+# This is Table 3.
+name: "Table 3"
+description: $\eta / \pi^0$ ration in p+p collisions at $\sqrt{s}$ = 200 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p p --> X + $\pi^0$ + $\eta$]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig24.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig24.png", description: Image file}
+- {location: fig2.png, description: Image file}
+- {location: thumb_fig2.png, description: Thumbnail Image file}
+data_file: tab3.yaml
+---
+# Start of table entries.
+# This is Table 4.
+name: "Table 4"
+description: $\eta / \pi^0$ ration in p+p collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [d Au --> X + $\pi^0$ + $\eta$]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig24.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig24.png", description: Image file}
+- {location: fig2.png, description: Image file}
+- {location: thumb_fig2.png, description: Thumbnail Image file}
+data_file: tab4.yaml
+---
+# Start of table entries.
+# This is Table 5.
+name: "Table 5"
+description: Nuclear modification factor $R_{dA}$ for $\pi^0$ $\sqrt{s}$ = 200 GeV. Normalization uncertainty of 14.0% is not included.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig25.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig25.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+data_file: tab5.yaml
+---
+# Start of table entries.
+# This is Table 6.
+name: "Table 6"
+description: Nuclear modification factor $R_{dA}$ for $\eta$ $\sqrt{s}$ = 200 GeV. Normalization uncertainty of 14.0% is not included.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig25.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig25.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+data_file: tab6.yaml
+---
+# Start of table entries.
+# This is Table 7.
+name: "Table 7"
+description: Nuclear modification factor $R_{CP}$ for $\pi^0$ $\sqrt{s}$ = 200 GeV. Normalization uncertainty of 11.1% is not included.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig26.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig26.png", description: Image file}
+- {location: fig4.png, description: Image file}
+- {location: thumb_fig4.png, description: Thumbnail Image file}
+data_file: tab7.yaml
+---
+# Start of table entries.
+# This is Table 8.
+name: "Table 8"
+description: Direct photon double ratio $R_{\gamma}$ in p+p collisions $\sqrt{s}$ = 200 GeV. 
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p p --> X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig27.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig27.png", description: Image file}
+- {location: fig5.png, description: Image file}
+- {location: thumb_fig5.png, description: Thumbnail Image file}
+data_file: tab8.yaml
+---
+# Start of table entries.
+# This is Table 9.
+name: "Table 9"
+description: Direct photon double ratio $R_{\gamma}$ in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [d Au --> X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig27.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig27.png", description: Image file}
+- {location: fig5.png, description: Image file}
+- {location: thumb_fig5.png, description: Thumbnail Image file}
+data_file: tab9.yaml
+---
+# Start of table entries.
+# This is Table 10.
+name: "Table 10"
+description: Cross section for direct photon production at midrapidity in p+p collisions at $\sqrt{s}$ = 200 GeV. Data with no errors corespond to the 95% confidence limits for the cross section in the $p_T$ bins where $R_{\gamma}$ did not correspond to a significant direct photon signal, assuming that the statistical and systematic errors both followed a Gaussian distribution, and using the fact that $R_{\gamma} \geq 1$ by definition.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p p --> X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig28.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig28.png", description: Image file}
+- {location: fig6.png, description: Image file}
+- {location: thumb_fig6.png, description: Thumbnail Image file}
+data_file: tab10.yaml
+---
+# Start of table entries.
+# This is Table 11.
+name: "Table11"
+description: Cross section for direct photon production at midrapidity in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Data with no errors corespond to the 95% confidence limits for the cross section in the $p_T$ bins where $R_{\gamma}$ did not correspond to a significant direct photon signal, assuming that the statistical and systematic errors both followed a Gaussian distribution, and using the fact that $R_{\gamma} \geq 1$ by definition.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [d Au --> X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [relativistic heavy ion collisions, high transverse momentum, neutral pion production, eta meson production, direct photon production]}
+additional_resources: # fig thumbnails
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig28.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/151/fig28.png", description: Image file}
+- {location: fig6.png, description: Image file}
+- {location: thumb_fig6.png, description: Thumbnail Image file}
+data_file: tab11.yaml
+

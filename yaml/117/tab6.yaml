@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value:  4.5
+  - value:  5.5
+  - value:  6.5
+  - value:  7.5
+  - value:  9
+  - value:  11
+  - value:  13
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: 'Nuclear modification factor $R_{dA}$ for $\eta$ $\sqrt{s}$ = 200 GeV'}
+  values:
+  - value: 1.021
+    errors:
+    - {symerror: 0.69, label: 'Stat. error'}
+    - {symerror: 0.519, label: 'Syst. error'}
+  - value: 1.816
+    errors:
+    - {symerror: 0.54, label: 'Stat. error'}
+    - {symerror: 0.464, label: 'Syst. error'}
+  - value: 1.848
+    errors:
+    - {symerror: 0.4, label: 'Stat. error'}
+    - {symerror: 0.427, label: 'Syst. error'}
+  - value: 1.213
+    errors:
+    - {symerror: 0.38, label: 'Stat. error'}
+    - {symerror: 0.365, label: 'Syst. error'}
+  - value: 0.784
+    errors:
+    - {symerror: 0.279, label: 'Stat. error'}
+    - {symerror: 0.235, label: 'Syst. error'}
+  - value: 0.592
+    errors:
+    - {symerror: 0.289, label: 'Stat. error'}
+    - {symerror: 0.213, label: 'Syst. error'}
+  - value: 1.528
+    errors:
+    - {symerror: 0.837, label: 'Stat. error'}
+    - {symerror: 0.684, label: 'Syst. error'}

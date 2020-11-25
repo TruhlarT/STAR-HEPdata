@@ -1,0 +1,51 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+  - {low: 10.0, high: 11.0}
+  - {low: 11.0, high: 12.0}
+  - {low: 12.0, high: 13.5}
+  - {low: 13.5, high: 15.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value:  6.5
+  - value:  7.5
+  - value:  8.5
+  - value:  9.5
+  - value:  10.5
+  - value:  11.5
+  - value:  12.75
+  - value:  14.25
+- header: {name: 'Cross section (mb GeV$^{-2}c^3$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: 'Cross section for direct photon production at midrapidity in p+p collisions at $\sqrt{s}$ = 200 GeV'}
+  values:
+  - value: 0.000000373
+    errors:
+    - {symerror: 0.0000000771, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.000000201, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000000811
+    errors:
+    - {symerror: 0.0000000315, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0000000611, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000000601
+    errors:
+    - {symerror: 0.0000000174, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0000000284, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000000307
+  - value: 0.000000022
+  - value: 0.00000000752
+    errors:
+    - {symerror: 0.00000000474, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00000000315, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.00000000466
+  - value: 0.00000000229
+    errors:
+    - {symerror: 0.00000000191, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.000000000874, label: 'Syst. error (mb GeV$^{-2}c^3$)'}

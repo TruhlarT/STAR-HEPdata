@@ -1,0 +1,60 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+  - {low: 10.0, high: 11.0}
+  - {low: 11.0, high: 12.0}
+  - {low: 12.0, high: 13.5}
+  - {low: 13.5, high: 15.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value:  6.5
+  - value:  7.5
+  - value:  8.5
+  - value:  9.5
+  - value:  10.5
+  - value:  11.5
+  - value:  12.75
+  - value:  14.25
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: 'Direct photon double ratio $R_{\gamma}$ in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV'}
+  values:
+  - value: 1.049
+    errors:
+    - {symerror: 0.066, label: 'Stat. error'}
+    - {symerror: 0.153, label: 'Syst. error'}
+  - value: 1.203
+    errors:
+    - {symerror: 0.082, label: 'Stat. error'}
+    - {symerror: 0.176, label: 'Syst. error'}
+  - value: 1.381
+    errors:
+    - {symerror: 0.12, label: 'Stat. error'}
+    - {symerror: 0.204, label: 'Syst. error'}
+  - value: 1.301
+    errors:
+    - {symerror: 0.153, label: 'Stat. error'}
+    - {symerror: 0.194, label: 'Syst. error'}
+  - value: 1.332
+    errors:
+    - {symerror: 0.192, label: 'Stat. error'}
+    - {symerror: 0.2, label: 'Syst. error'}
+  - value: 1.422
+    errors:
+    - {symerror: 0.268, label: 'Stat. error'}
+    - {symerror: 0.217, label: 'Syst. error'}
+  - value: 0.806
+    errors:
+    - {symerror: 0.214, label: 'Stat. error'}
+    - {symerror: 0.125, label: 'Syst. error'}
+  - value: 2.028
+    errors:
+    - {symerror: 0.7, label: 'Stat. error'}
+    - {symerror: 0.323, label: 'Syst. error'}

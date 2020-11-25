@@ -1,0 +1,90 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+  - {low: 14.0, high: 17.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 1.25
+  - value: 1.75
+  - value: 2.25
+  - value: 2.75
+  - value: 3.5
+  - value: 4.5
+  - value: 5.5
+  - value: 6.5
+  - value: 7.5
+  - value: 9
+  - value: 11
+  - value: 13
+  - value: 15.5
+- header: {name: 'Cross section (mb GeV$^{-2}c^3$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: 'Cross section for $\pi^0$ production at midrapidity in p+p collisions at $\sqrt{s}$ = 200 GeV'}
+  values:
+  - value: 0.259
+    errors:
+    - {symerror: 0.0158, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0362, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0483
+    errors:
+    - {symerror: 0.00304, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00946, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0119
+    errors:
+    - {symerror: 0.000895, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00287, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.00364
+    errors:
+    - {symerror: 0.000336, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00102, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.000438
+    errors:
+    - {symerror: 0.0000821, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.000137, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000672
+    errors:
+    - {symerror: 0.00000508, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0000239, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.000014
+    errors:
+    - {symerror: 0.000000892, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00000266, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.00000373
+    errors:
+    - {symerror: 0.000000244, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.000000676, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.00000118
+    errors:
+    - {symerror: 0.0000000694, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.000000259, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.000000308
+    errors:
+    - {symerror: 0.0000000185, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0000000767, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000000792
+    errors:
+    - {symerror: 0.00000000564, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.0000000241, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.0000000213
+    errors:
+    - {symerror: 0.0000000022, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00000000777, label: 'Syst. error (mb GeV$^{-2}c^3$)'}
+  - value: 0.00000000511
+    errors:
+    - {symerror: 0.000000000781, label: 'Stat. error (mb GeV$^{-2}c^3$)'}
+    - {symerror: 0.00000000218, label: 'Syst. error (mb GeV$^{-2}c^3$)'}

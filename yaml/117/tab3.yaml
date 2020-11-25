@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$p_T$ (GeV/$c$)'}
+  values:
+  - value:  1.25
+  - value:  1.75
+  - value:  2.25
+  - value:  2.75
+  - value:  3.5
+  - value:  4.5
+  - value:  5.5
+  - value:  6.5
+  - value:  7.5
+  - value:  9
+  - value:  11
+  - value:  13
+- header: {name: '$\eta / \pi^0$'}
+  qualifiers:
+  - {name: '$p_T$ range (GeV/$c$)', value: '$\eta / \pi^0$ ration in p+p collisions at $\sqrt{s}$ = 200 GeV'}
+  values:
+  - value: 0.283
+    errors:
+    - {symerror: 0.109, label: 'Stat. error'}
+    - {symerror: 0.013, label: 'Syst. error'}
+  - value: 0.364
+    errors:
+    - {symerror: 0.107, label: 'Stat. error'}
+    - {symerror: 0.017, label: 'Syst. error'}
+  - value: 0.583
+    errors:
+    - {symerror: 0.134, label: 'Stat. error'}
+    - {symerror: 0.029, label: 'Syst. error'}
+  - value: 0.367
+    errors:
+    - {symerror: 0.147, label: 'Stat. error'}
+    - {symerror: 0.02, label: 'Syst. error'}
+  - value: 0.131
+    errors:
+    - {symerror: 0.241, label: 'Stat. error'}
+    - {symerror: 0.008, label: 'Syst. error'}
+  - value: 0.611
+    errors:
+    - {symerror: 0.059, label: 'Stat. error'}
+    - {symerror: 0.04, label: 'Syst. error'}
+  - value: 0.473
+    errors:
+    - {symerror: 0.045, label: 'Stat. error'}
+    - {symerror: 0.035, label: 'Syst. error'}
+  - value: 0.569
+    errors:
+    - {symerror: 0.065, label: 'Stat. error'}
+    - {symerror: 0.046, label: 'Syst. error'}
+  - value: 0.385
+    errors:
+    - {symerror: 0.036, label: 'Stat. error'}
+    - {symerror: 0.034, label: 'Syst. error'}
+  - value: 0.37
+    errors:
+    - {symerror: 0.041, label: 'Stat. error'}
+    - {symerror: 0.038, label: 'Syst. error'}
+  - value: 0.489
+    errors:
+    - {symerror: 0.066, label: 'Stat. error'}
+    - {symerror: 0.058, label: 'Syst. error'}
+  - value: 0.372
+    errors:
+    - {symerror: 0.132, label: 'Stat. error'}
+    - {symerror: 0.051, label: 'Syst. error'}
